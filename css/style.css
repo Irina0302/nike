@@ -59,54 +59,32 @@ body:before {
 .Sneakers {
     clear: left;
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 45px;
     margin-top: 200px;
+    width: 50%;
 }
 
 .info {
     float: right;
+    width: 45%;
     color: #7a838d;
+    padding-right: 100px;
+    padding-top: 50px;
 }
 
 .stars li {
     display: inline-block;
     list-style: none;
-    
 }
+
 .fa {
     color: white;
 }
+
 .fa :hover {
     background-color: yellow;
 }
+
 .forms {
     float: right;
-    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

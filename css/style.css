@@ -22,6 +22,7 @@ body:before {
 }
 
 .container {
+    box-sizing: border-box;
     width: 1100px;
     height: 650px;
     box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
@@ -37,76 +38,94 @@ body:before {
 }
 
 .Log {
-    float: left;
     height: 50px;
     width: 110px;
     padding-left: 50px;
     padding-top: 50px;
 }
 
-.clearfix {
+.clearfix:after {
     content: '';
     display: table;
     clear: both;
 }
 
 .sneak {
-    clear: left;
     height: 200px;
     width: 410px;
 }
 
 .Sneakers {
-    clear: left;
-    display: inline-block;
-    margin-left: 50px;
-    margin-top: 200px;
+    width: 50%;
+    float: left;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    color: #7a838d;
+    width: 50%;
+    margin: auto;
+    box-sizing: border-box
 }
 
 .info {
     float: right;
+    text-align: left;
     color: #7a838d;
+    width: 50%;
+    margin: auto;
+    /*
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+*/
 }
 
 .stars li {
     display: inline-block;
     list-style: none;
-    
 }
+
 .fa {
     color: white;
 }
-.fa :hover {
-    background-color: yellow;
-}
-.forms {
-    float: right;
-    
+
+.stars i:hover {
+    color: yellow;
 }
 
+.form {
+   
+    box-sizing: border-box;
 
+    width: 69px;
+    height: 32px;
+    border: 1px solid #ffffff;
+    background-color: #111a28;
+    opacity: 0.26;
+}
 
+.size {
+    width: 69px;
+    height: 32px;
+    border: 1px solid #ffffff;
+    background-color: #111a28;
+    opacity: 0.26;
+}
 
+.qty {
+    width: 69px;
+    height: 32px;
+    border: 1px solid #ffffff;
+    background-color: #111a28;
+    opacity: 0.26;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.form__btn {
+    width: 184px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: #4c525a;
+    opacity: 0.26;
+}

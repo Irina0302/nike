@@ -58,14 +58,50 @@ body:before {
 .Sneakers {
     width: 50%;
     float: left;
-    position: relative;
     text-align: center;
-    padding: 20px 0;
+    padding: 110px 0;
     color: #7a838d;
     width: 50%;
     margin: auto;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
+
+.thk {
+    padding-left: 0;
+    margin: 90px;
+}
+
+.thk li {
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    float: right;
+    margin: 10px;
+    
+}
+
+.thk li:hover {
+    border: solid 2px #ffffff;
+    background-color: #1f273f;
+    transition: 0.3s ease;
+    width: 12px;
+    height: 12px;
+}
+.thk__grey{
+    background-color: grey;
+}
+.thk__white{
+    background-color: white;
+}
+.thk__red{
+    background-color: red;
+}
+.thk__blue{
+    background-color: blue;
+}
+
+
 
 .info {
     float: right;
@@ -73,16 +109,31 @@ body:before {
     color: #7a838d;
     width: 50%;
     margin: auto;
-    /*
+}
+
+.info:focus {
+    outline: none;
+}
+
+
+/*
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
 */
+
+h1 {
+    margin-bottom: 0;
+}
+
+h3 {
+    margin-bottom: 0;
 }
 
 .stars li {
+    margin: 5px;
     display: inline-block;
     list-style: none;
 }
@@ -96,36 +147,35 @@ body:before {
 }
 
 .form {
-   
-    box-sizing: border-box;
-
-    width: 69px;
-    height: 32px;
     border: 1px solid #ffffff;
     background-color: #111a28;
     opacity: 0.26;
 }
 
-.size {
-    width: 69px;
-    height: 32px;
+select {
+    margin-top: 30px;
+    width: 115px;
+    height: 60px;
     border: 1px solid #ffffff;
     background-color: #111a28;
     opacity: 0.26;
+    color: #e1e1e1;
+    font-family: "Museo Sans Rounded";
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 18px;
 }
 
-.qty {
-    width: 69px;
-    height: 32px;
-    border: 1px solid #ffffff;
-    background-color: #111a28;
-    opacity: 0.26;
-}
-
-.form__btn {
-    width: 184px;
-    height: 40px;
+.btn {
+    width: 300px;
+    height: 70px;
+    margin-top: 30px;
     border: 1px solid #ffffff;
     background-color: #4c525a;
     opacity: 0.26;
+    color: #e1e1e1;
+    font-family: "Museo Sans Rounded";
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 18px;
 }

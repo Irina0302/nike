@@ -12,14 +12,30 @@
 
 <body>
 
-    <div class="container">
-        <div class="logo">
+    <div class="container clearfix">
+
+        <header class="logo">
             <img class="Log" src="img/logo.png">
-        </div>
+        </header>
 
 
-        <div class="Sneakers clearfix">
+        <div class="Sneakers">
             <img class="sneak" src="img/nike-sb-stefan-janoski-max.png">
+
+            <ul class="thk clearfix">
+                <li class="thk thk__grey">
+
+                </li>
+                <li class="thk thk__white">
+
+                </li>
+                <li class="thk thk__red">
+
+                </li>
+                <li class="thk thk__blue">
+
+                </li>
+            </ul>
 
         </div>
 
@@ -42,30 +58,24 @@
                 </li>
             </ul>
 
-            <form action="" class="form">
-                <select class="size">
-                
-  <option>Size</option>
-  <option>38</option>
-  <option>39</option>
-   <option >40</option>
-  
-</select>
-                <select class="qty">
-                     <option>Qty</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-   
-  
-</select>
-                
+            <form action="http://www.nike.com/ru/ru_ru/?ref=https%253A%252F%252Fwww.google.com.ua%252F" method="POST">
+
+
+                <select name="size" id="">Size
+                <option value="39">Size</option>
+                <option value="38">38</option>
+                <option value="37">37</option>
+                </select>
+                <select name="Qty" id="Qty">
+                    <option value="">Qty</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                </select><br>
+
+                <input class="btn" type="submit" value="Add to cart">
+
+
             </form>
-
-            <input class="form__btn" type="submit" value="Add to cart">
-
-
-
 
 
         </div>
